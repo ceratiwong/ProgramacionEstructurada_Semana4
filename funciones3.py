@@ -1,5 +1,8 @@
+ventas_registradas = 0
+
+
 def registrar_venta():
-    ventas_registradas = 0
+    global ventas_registradas
     ventas_registradas += 1
     print("Venta registrada")
 
